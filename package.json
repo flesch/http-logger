@@ -1,0 +1,38 @@
+{
+  "name": "@flesch/http-logger",
+  "description": "Put some morgan in your bunyan.",
+  "version": "0.1.0",
+  "author": "John Flesch <john@fles.ch> (http://fles.ch/)",
+  "bugs": {
+    "url": "https://github.com/flesch/http-logger/issues"
+  },
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "morgan": "^1.6.1",
+    "statuses": "^1.2.1",
+    "useragent": "^2.1.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  },
+  "homepage": "https://github.com/flesch/http-logger",
+  "keywords": [
+    "bunyan",
+    "http",
+    "log",
+    "logger",
+    "logging",
+    "morgan"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flesch/http-logger.git"
+  },
+  "scripts": {
+    "build": "babel index.js --out-file lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
